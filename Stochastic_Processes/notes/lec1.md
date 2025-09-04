@@ -1,3 +1,30 @@
+---
+title: 
+lang: zh-CN
+fontsize: 12pt
+geometry: margin=25mm
+
+# —— 字体（思源家族）——
+# 正文字体（衬线）：思源宋体
+mainfont: Source Han Serif SC
+# 无衬线：思源黑体
+sansfont: Noto Sans CJK SC
+# 等宽：可用思源等宽或更纱 Mono（推荐更纱，更全）
+monofont: Noto Sans Mono CJK SC   # 若已装 Source Han Mono 则可写：Source Han Mono SC
+
+# CJK 专用（XeLaTeX 会用 xeCJK 处理）
+CJKmainfont: Source Han Serif SC
+CJKsansfont: Noto Sans SC
+CJKmonofont: Noto Sans Mono CJK SC
+
+# 链接样式（可选）
+colorlinks: true
+linkcolor: blue
+
+# 若用 XeLaTeX，Pandoc 会自动加载 fontspec/xeCJK
+# 数学字体（可选）
+# mathfont: XITS Math
+---
 # 随机过程
 - 教材
 
@@ -17,7 +44,7 @@
 
 - Def1.1.1 概率空间 
     - $设\Omega是样本空间，\Tau是\Omega的某些子集，若$
-        1. $\Omega \in \Tau$
+        1. $\Omega \in \mathscr{F}$
         2. $若A\in\Tau，\bar{A}\in\Tau$
         3. $若A_n\in\Tau,n=1,2,\dots ,则\bigcup^{\infty}_{n=1}\in \Tau称\Tau为事件域，或\sigma域$
     - 性质
@@ -105,7 +132,7 @@ $$
     3. A 与 $B - C$
     4. A所生存的事件域与B、C所生成的事件域
 
-## 随机变量及分布
+## 1.2 随机变量及分布
 - 随机变量是概率论的主要研究对象
 - 试验结果是数值化的，或与数值相联系的
 - 用分布函数描述概率特性
@@ -135,6 +162,74 @@ $$F(x) = P(X \leq x)  - \infty \lt x \lt + \infty \\
     $$F_X(x) = P(X \leq x) = \int^{x}_{-\infty} f_X(t)dt$$
 
 - Def 1.2.2 n维随机变量（n维随机向量）
+    - $概率空间(\Omega,\mathscr{F},P)$
+    - $定义在\Omega上的n元$
+
+- $n$维随机变量性质
+
+- 联合分布 & 联合密度
+
+- 边缘分布函数
+
+- $n$维随机变量独立性
+    $$
+        F(x_1,x_2,\cdots,x_n) = F_{x_1}(x_1)F_{x_2}(x_2)\cdots F_{x_n}(x_n)
+    $$
+
+    - 其充分必要条件
+        - 离散
+        - 连续
+
+- 注意：写函数时要记住写自变量的其值范围
+
+## 1.3 随机变量的数字特征
+
+- 分布函数难找到
+- 希望得到确切的值，能够描述随机变量的概率特征就够了
+
+- Def 1.3.4 数学期望（均值）
+    - 若
+        $$
+            \int^{+\infty}_{-\infty} |x|dF(x) \lt +\infty
+        $$
+称
+$$
+    EX = \int^{+\infty}_{-\infty} x d F(x) \\
+    F(x)是分布函数  \\
+$$
+
+离散的：
+
+$$
+    EX = \sum_{i} x_{i}p_{i}
+$$
+
+
+- Def 1.3.5 方差（Variance）
+
+$$
+    DX = E(X - EX)^{2} = EX^{2} - (EX)^{2}
+$$
+
+连续的：
+
+$$
+    DX = \int^{+\infty}_{-\infty} (x - EX)^{2}d F(x)
+$$
+
+- Def 1.3.6 协方差
+
+$$
+    cov(X,Y) = E[(X-EX)(Y-EY)] = E(XY) - EXEY
+$$
+
+
+- 马尔可夫不等式
+
+- r 阶矩
 
 # TODOs
+
 - 回忆微积分系列公式
+
+- 2 常见的概率的密度函数、分布
