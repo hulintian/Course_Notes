@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.13)  22 SEP 2025 19:56
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.13)  26 SEP 2025 22:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -646,8 +646,7 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@ftn=\toks30
 )
 (build/assign1.aux (build/./sections/section1.aux)
-(build/./sections/section2.aux) (build/./sections/section3.aux)
-(build/./sections/section4.aux) (build/./sections/section5.aux))
+(build/./sections/section2.aux) (build/./sections/section3.aux))
 \openout1 = `assign1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -801,76 +800,338 @@ File: ./asserts/ieee_xpolre.png Graphic file (type bmp)
 <./asserts/ieee_xpolre.png>
 File: ./asserts/en_search_multi_modal.png Graphic file (type bmp)
 <./asserts/en_search_multi_modal.png>
+File: ./asserts/find_the_paper.png Graphic file (type bmp)
+<./asserts/find_the_paper.png>
 
 
 [2
 
 ])
 
-LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/m/sl' in size <10.5393
-7> not available
-(Font)              Font shape `TU/FandolSong-Regular(0)/m/it' tried instead on
- input line 42.
 [3]
 \openout2 = `./sections/section2.aux'.
 
  (./sections/section2.tex
-File: ./asserts/reconfigurable_computing_search.png Graphic file (type bmp)
-<./asserts/reconfigurable_computing_search.png>
-File: ./asserts/reconfg_res_en.png Graphic file (type bmp)
-<./asserts/reconfg_res_en.png>
-
+File: ./asserts/the_cnki.png Graphic file (type bmp)
+<./asserts/the_cnki.png>
+File: ./asserts/the_cnki_adv_search.png Graphic file (type bmp)
+<./asserts/the_cnki_adv_search.png>
+File: ./asserts/cnki_find_paper.png Graphic file (type bmp)
+<./asserts/cnki_find_paper.png>
+)
 
 [4
 
 
 
-])
+]
 
 [5]
 \openout2 = `./sections/section3.aux'.
 
- (./sections/section3.tex)
+ (./sections/section3.tex
 
 [6
 
 
 
 ]
-\openout2 = `./sections/section4.aux'.
 
- (./sections/section4.tex)
+LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/m/sl' in size <10.5393
+7> not available
+(Font)              Font shape `TU/FandolSong-Regular(0)/m/it' tried instead on
+ input line 107.
+[7]
 
-[7
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156             \begin{enumerate}
+                                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (3.43713pt too wide) in paragraph at lines 159--160
+[]\TU/lmr/m/n/10.53937 Department of Computer Science and Engineering, Universi
+ty of Notre Dame,
+ []
 
 
 
-]
-\openout2 = `./sections/section5.aux'.
-
- (./sections/section5.tex)
-
-[8
-
+[8]
+Overfull \hbox (3.43713pt too wide) in paragraph at lines 163--164
+[]\TU/lmr/m/n/10.53937 Department of Computer Science and Engineering, Universi
+ty of Notre Dame,
+ []
 
 
-] (build/assign1.aux (build/./sections/section1.aux)
-(build/./sections/section2.aux) (build/./sections/section3.aux)
-(build/./sections/section4.aux) (build/./sections/section5.aux))
+Overfull \hbox (3.43713pt too wide) in paragraph at lines 167--168
+[]\TU/lmr/m/n/10.53937 Department of Computer Science and Engineering, Universi
+ty of Notre Dame,
+ []
+
+
+Overfull \hbox (3.43713pt too wide) in paragraph at lines 171--172
+[]\TU/lmr/m/n/10.53937 Department of Computer Science and Engineering, Universi
+ty of Notre Dame,
+ []
+
+
+Overfull \hbox (1.57487pt too wide) in paragraph at lines 185--186
+\TU/lmr/m/n/10.53937 neural networks”, Neuromorphic Computing and Engineering, 
+vol.5, no.3, pp.034011,
+ []
+
+
+
+[9]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226     \item 论
+                 文名：Messsage Spreading Estimating Methods in Ubiquitous Netw...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 226
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227     \item 作
+                 者信息：
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 227
+[][]
+ []
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229             \begin{enumerate}
+                                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+
+[10]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.249     \item 收
+                 录情况：
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 249
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.255     \item 影
+                 响因子：会议论文，没有影响因子
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 255
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.256     \item 被
+                 引情况：无
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 256
+[][]
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.257 \end{itemize}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\if...
+l.257 \end{itemize}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+
+
+[11]
+
+[12]
+Overfull \hbox (0.13478pt too wide) in paragraph at lines 321--322
+[]\TU/lmr/m/n/10.53937 Research interests: data science, artificial intelligenc
+e, big data, and distributed
+ []
+
+
+Overfull \hbox (3.28394pt too wide) in paragraph at lines 328--329
+[]\TU/lmr/m/n/10.53937 Research interests: embedded systems, software engineeri
+ng, and cyber-physical
+ []
+
+
+! LaTeX Error: \begin{itemize} on input line 296 ended by \end{enumerate}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.331         \end{enumerate}
+                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.333     \item 收
+                 录情况：
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 333
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.340     \item 影
+                 响因子：3.6
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 340
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341     \item 被
+                 引情况：
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 341
+[][]
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.347 \end{itemize}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\if...
+l.347 \end{itemize}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+
+
+[13]
+
+[14])
+
+[15] (build/assign1.aux (build/./sections/section1.aux)
+(build/./sections/section2.aux) (build/./sections/section3.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/08/05>
  ***********
 Package rerunfilecheck Info: File `assign1.out' has not changed.
-(rerunfilecheck)             Checksum: 5DA801D3B2B4574D2046AAA3631BC957;1311.
+(rerunfilecheck)             Checksum: 55EB64239A163DF19D46C796FB187354;758.
  ) 
 Here is how much of TeX's memory you used:
- 19797 strings out of 473840
- 413724 string characters out of 5729724
- 822368 words of memory out of 5000000
- 42551 multiletter control sequences out of 15000+600000
- 565692 words of font info for 83 fonts, out of 8000000 for 9000
+ 19833 strings out of 473840
+ 418170 string characters out of 5729724
+ 824613 words of memory out of 5000000
+ 42601 multiletter control sequences out of 15000+600000
+ 565684 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,7n,112p,1193b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,6n,112p,1193b,622s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/assign1.pdf (8 pages).
+Output written on build/assign1.pdf (15 pages).
